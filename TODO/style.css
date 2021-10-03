@@ -1,0 +1,118 @@
+.hidden {
+    display: none;
+  }
+
+body{
+
+  overflow: auto;
+}
+
+#login-form{
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.inputName{
+  color: white;
+  text-align: center;
+  background: 0;
+  border: 0;
+  border-bottom: 2px solid white;
+  outline: none;
+  width: 80vw;
+  max-width: 400px;
+  font-size: 2em;
+  transition: padding 0.3s 0.2s ease;
+
+}
+#sbmitInput{
+  color: white;
+  background: 0;
+  outline: none;
+  width: 40vw;
+  max-width: 100px;
+  font-size: 1.5em;
+  transition: padding 0.3s 0.2s ease;
+}
+
+#greeting{
+  text-align: center;
+  position: fixed;
+  font-size: 60px;
+  top: 40%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;  
+}
+
+#todo-form{
+  text-align: center;
+  position: fixed;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  
+}
+
+#todo-input{
+  color: white;
+  background: 0;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  width: 80vw;
+  max-width: 400px;
+  font-size: 1.5em;
+  font-weight: 100;
+  transition: padding 0.3s 0.2s ease;
+
+}
+
+
+#todo-list{
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  
+}
+
+li{
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+#clock{
+  color: white;
+  font-size: 6em;
+  text-align: center;
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  
+}
+  
+
+img{
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+    
+}
+
+#weather{
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  
+}
